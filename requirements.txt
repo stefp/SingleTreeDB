@@ -1,0 +1,34 @@
+# ===============================
+# SingleTree – Python Requirements
+# ===============================
+
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+
+# Point cloud handling (Mode A2 tree packs)
+laspy>=2.5
+lazrs>=0.5
+
+# Geospatial helpers (polygon queries, geometry ops)
+shapely>=2.0
+pyproj>=3.6
+
+# API layer (optional but recommended for tiles & queries)
+fastapi>=0.110
+uvicorn>=0.29
+
+# Data validation & schemas
+pydantic>=2.0
+
+# Notebooks / examples / visualization
+jupyter>=1.0
+nbformat>=5.9
+matplotlib>=3.8
+
+# XML / parsing helpers (used by optbuck workflows)
+lxml>=4.9
+
+# NOTE:
+# optbuck should be installed separately from your local repo or git:
+# pip install -e path/to/optbuck
