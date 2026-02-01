@@ -18,8 +18,8 @@ To help you get started quickly, a **demo dataset** generator script (`create_de
 1. **Clone** this repository and navigate into it:
 
    ```bash
-   git clone <repository-url>
-   cd singletree
+   git clone [<repository-url>](https://github.com/stefp/SingleTreeDB)
+   cd SingleTreeDB
    ```
 
 2. Create a Python environment (Python 3.10 or later recommended) and install dependencies:
