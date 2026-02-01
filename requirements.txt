@@ -2,13 +2,12 @@
 # SingleTree – Python Requirements
 # ===============================
 
+# Optional (for running tests)
+pytest>=7.0
+
 # Core scientific stack
 numpy>=1.24
 pandas>=2.0
-
-# Point cloud handling (Mode A2 tree packs)
-laspy>=2.5
-lazrs>=0.5
 
 # Geospatial helpers (polygon queries, geometry ops)
 shapely>=2.0
@@ -22,7 +21,6 @@ uvicorn>=0.29
 pydantic>=2.0
 
 # Notebooks / examples / visualization
-jupyter>=1.0
 nbformat>=5.9
 matplotlib>=3.8
 
