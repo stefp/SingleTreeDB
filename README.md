@@ -15,19 +15,21 @@ To help you get started quickly, a **demo dataset** generator script (`create_de
 
 ## ⚙️ Installation & Setup
 
-1. **Clone** this repository and navigate into it:
+1. **Clone** this repository and optBuck navigate into it:
 
    ```bash
    git clone https://github.com/stefp/SingleTreeDB
    cd SingleTreeDB
+   git clone https://github.com/stefp/optBuck_py
    ```
 
 2. Create a Python environment (Python 3.10 or later recommended) and install dependencies:
 
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
+   conda create -n SingleTreeDB python=3.11
+   conda activate SingleTreeDB
+   #pip install -r requirements.txt
+   pip install "laspy[lazrs,laszip]"
    ```
 
    > **Note:** the project depends on [laspy](https://laspy.readthedocs.io) for LAS/LAZ point‑cloud operations and [sqlite3](https://docs.python.org/3/library/sqlite3.html) for database access.  To read StanForD 2010 harvest data you’ll also need your Python *optBuck* package available on `PYTHONPATH`.
